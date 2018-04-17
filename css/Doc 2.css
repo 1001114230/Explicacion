@@ -1,0 +1,66 @@
+*{
+margin:0;
+padding: 0;
+}
+body{
+background:#BE1F57;
+}
+header{
+position: fixed;
+margin: auto;
+width: 100%;
+font-family Chewy;
+    src: url(../fonts/CHERI___.TTF);
+color:green;
+}
+ul.nav li {
+  float: left;
+  display: block;
+}
+ul , ol{
+list-style: none;
+}
+div li ul a{
+text-align: center;
+}
+.nav li{
+   right: 100%;
+}
+.nav li a {
+margin-top: -20px;
+background-color: #BE1F57;
+color: white;
+text-decoration: none;  
+padding: 16px 31px;
+display: block;
+}
+.nav li a:hover{
+background-color: #A4908E;
+}
+nav li ul {
+display:none;
+position:absolute;
+min-width: 140px;
+}
+.nav li:hover{
+display: block;
+}
+.nav li ul li {
+position: relative;
+}
+.main, footer  {
+width: 100%;
+margin: 10px auto;
+max-width: 1000px;
+}
+article h2 , h1 {
+font-size: 2.0em;
+height: 100px;
+}
+footer{
+background: #A4908E;
+color: black;
+padding: 5px 0px;
+clear: both;
+text-align:center;
+}

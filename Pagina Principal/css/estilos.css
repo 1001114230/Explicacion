@@ -1,0 +1,219 @@
+body {
+  font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+
+}
+html {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */  
+}
+
+/* Color y estilos rueda cargando */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 12px solid #616161;
+  border-radius: 50%;
+  border-top: 16px solid  #FC0487;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+/* Fin Color y estilos rueda cargando */
+
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+
+.navbar-toggle .icon-bar{
+    background-color: #975ABA;
+    /*Barrar navbar */
+}
+
+.navbar-brand {
+    font-size: 24px;   
+}
+
+
+.contenedor {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar-container {
+    padding: 10px 0px 0px 0;   
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #C685F0;
+    border-bottom: solid 1px white;
+    height: 40px;
+    width: 100%;
+    padding-top: 3px;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(84,32,102,1);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(84,32,102,1);
+    box-shadow: 0px 0px 16px 0px rgba(84,32,102,1);
+    
+}
+
+
+.navbar-brand.fixed-theme {
+    font-size: 20px;
+    
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+    
+    
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.3s;
+    -webkit-transition:  0.8s;    
+}
+
+
+.nav>li>a{
+    color: #fff;
+    width: 100px;
+    height: 45px;
+    padding: 0;margin:0;  
+}
+
+
+.nav>li>a:hover{
+    color: #8F1E4A;
+    background: white;
+    border-radius: 4px;
+    border-top:none;
+    border-bottom: 2px solid #8F1E4A; 
+}
+
+#navbar {
+    float: right;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background-color: white;
+    color:#8F1E4A;
+    
+}
+
+
+
+.dropdown-menu{
+    overflow: auto;
+    
+}
+
+.navbar-header{
+    padding: 0px;
+}
+  
+
+#prenatal,
+#programas,
+#posnatal,
+#clubbebe,
+#galeria,
+#foro,
+#carousel,
+#contactanos{
+    padding-top: 70px;
+}
+
+
+body{
+     
+overflow-x: hidden;
+overflow-y: visible;
+background: #ebeff1;
+font-family: Handlee-Regular;
+}
+
+
+::-webkit-scrollbar {
+   width: 9px;
+}
+
+
+::-webkit-scrollbar-track {
+   background-color: transparent;   
+} 
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #E1BEE7;
+    border-radius: 5px;
+    border: 3px solid #E1BEE7;
+} 
+
+
+::-webkit-scrollbar-button {
+      background-color: #8F1E4A;
+    height: 5px;
+    border-radius: 4px 0 0 4px; 
+}
+
+
+::-webkit-scrollbar-corner {
+      background-color: red;
+}
+
+.dropdown-menu{
+    
+}
+
+

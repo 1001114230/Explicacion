@@ -1,0 +1,280 @@
+.action1{
+left: 350px;
+-o-box-shadow: 0 0 10px rgba(0,0,0,0,3); 
+background:transparent;
+box-shadow: 0 0 10px rgba(0,0,0,0,3);
+color: #000;
+display: none;
+font-size: 15px;
+margin-right: 100px;
+padding: 10px;
+position: absolute;
+}
+
+#eliminartablauno {
+    background: #870C1C;
+    color: #fff;
+}
+
+#editar {
+    background: #002D40;
+    color: #fff;
+}
+
+#crear {
+    background: #3B3F42;
+    color: #fff;
+}
+
+
+
+#eliminarP {
+    background: #870C1C;
+    color: #fff;
+}
+
+#editarP {
+    background: #002D40;
+    color: #fff;
+}
+
+#crear {
+    background: #3B3F42;
+    color: #fff;
+}
+
+
+
+
+#editEstado {
+    background: #002D40;
+    color: #fff;
+}
+
+#crear {
+    background: #3B3F42;
+    color: #fff;
+}
+
+
+
+.profile 
+{
+    min-height: 355px;
+    display: inline-block;
+    }
+figcaption.ratings
+{
+    margin-top:20px;
+    }
+figcaption.ratings a
+{
+    color:#f1c40f;
+    font-size:11px;
+    }
+figcaption.ratings a:hover
+{
+    color:#f39c12;
+    text-decoration:none;
+    }
+.divider 
+{
+    border-top:1px solid rgba(0,0,0,0.1);
+    }
+.emphasis 
+{
+    border-top: 4px solid transparent;
+    }
+.emphasis:hover 
+{
+    border-top: 4px solid #1abc9c;
+    }
+.emphasis h2
+{
+    margin-bottom:0;
+    }
+span.tags 
+{
+    background: #1abc9c;
+    border-radius: 2px;
+    color: #f5f5f5;
+    font-weight: bold;
+    padding: 2px 4px;
+    }
+.dropdown-menu 
+{
+    
+    background-color: #392230;    
+    color: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 250px;
+    
+   
+    }
+.dropdown-menu .divider 
+{
+    background:none;    
+    }
+.dropdown-menu>li>a
+{
+    color:#f5f5f5;
+    }
+.dropup .dropdown-menu 
+{
+    
+    margin-bottom:10px;
+    }
+.dropup .dropdown-menu:before 
+{
+    content: "";
+    border-top: 10px solid #34495e;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px;
+    z-index: 10;
+    }
+
+/*Control de usuarios-usuario*/
+/*usuario*/
+
+        .dual-list .list-group {
+            margin-top: 8px;
+        }
+
+        .list-left li, .list-right li {
+            cursor: pointer;
+        }
+
+        .list-arrows {
+            padding-top: 100px;
+        }
+
+            .list-arrows button {
+                margin-bottom: 20px;
+            }
+/*usuario*/
+
+
+/*Control de usuarios-usuario FIN*/
+
+body{
+     
+      overflow-x: hidden;
+        overflow-y: visible;
+    background: #fff;
+
+
+}
+::-webkit-scrollbar {
+      width: 9px;
+}
+::-webkit-scrollbar-track {
+      background-color: transparent;
+    
+} 
+::-webkit-scrollbar-thumb {
+      background-color: #E1BEE7;
+    border-radius: 8px;
+    border: 1px solid #E1BEE7;
+} ::-webkit-scrollbar-button {
+      background-color: #AD3057;
+    height: 7px;
+    border-radius: 2px 0 0 2px; 
+}
+
+.jumbotron{
+    background-image: url(../img/may.jpg);
+    background-size: contain;
+     -webkit-box-shadow: 6px 0px 30px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 0px 30px -2px rgba(0,0,0,0.75);
+box-shadow: 6px 0px 20px -2px rgba(0,0,0,0.75);
+}
+.jumbotron h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+.padding-0{
+    padding: 0;
+    
+}
+.box-1{
+    -webkit-box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+    -ms-box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+    -o-box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24);
+}
+.panel-heading{
+    
+    background: #F9F9F9;
+    padding: 5px;
+    padding-left: 20px;
+    border-bottom: 5px solid #ddd;
+}
+.bg-white {
+    background-color: #FFF !important;
+}
+.border-none, .border-none:focus {
+    border: none !important;
+}
+
+.panel-body{
+    padding-top:40px; 
+    
+}
+.circulo{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px auto;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+    text-align: center;
+    line-height: 66px;
+    background: #CC333F;
+    -moz-box-shadow: inset 0px 1px 2px #6E161D;
+    -webkit-box-shadow: inset 0px 1px 2px #6E161D;
+    box-shadow: inset 0px 1px 2px #6E161D;
+}
+.circulo .glyphicon {
+    color: white;
+    text-shadow: 0 1px 2px #6e161d;
+}
+.glyphicon-bell {
+    position: relative;
+    top: 40px;
+    font-size: 70px;
+    margin: 0 4px 0 0;
+}
+.list-group .glyphicon-dashboard{
+    font-size: 20px;
+    float: left;
+    color: crimson;
+    padding-right: 10px;
+    
+}
+
+.list-group .list-group-item{
+    padding: 15px;
+}
+.panel-heading span{
+    font-size: 20px;
+    padding: 10px;
+}
+
+rect {
+    width: 200px;
+    height: 100px;
+}
+svg g text{
+    font-size: 18px;
+    
+    
+}
+

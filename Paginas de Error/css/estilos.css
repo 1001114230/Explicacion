@@ -1,0 +1,18 @@
+
+body {
+
+    background-image: url(../img/Error404WorldFem.jpg);
+    background-size: 100% 2100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.btn-danger {
+  color: #fff;
+  background-color: #F2B8A2;
+  border-radius: 2px;
+  position: relative;
+  top: 560px;
+  left: 770px;
+}

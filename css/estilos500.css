@@ -1,0 +1,15 @@
+
+
+body {
+    background-image: url(../img/Error500WorldFem.jpg);
+    background-size: 100% 2000%;
+    background-repeat: no-repeat;
+
+}
+
+.btn-secondary {
+
+  color: #fff;
+  background-color: #F2B8A2;
+  border-radius: 2px;
+}

@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Consulta tus talleres</title>
+ 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shorcut icon" href="Img 2/Isotipo World FemFinal.png"><!--Favicon World Fem-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /><!--framevwork bootstrap css minificado-->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /><!--framevwork font-awesome css minificado-->
+    <link rel="stylesheet" href="css/sweetalert.css"><!--Framework sweetalert-->
+    <link rel="stylesheet" href="dist/css/formValidation.min.css"><!--Framework css-minifiaco para formValidation-->
+    <link rel="stylesheet" type="text/css" href="css/fullcalendar.css">
+
+    <link rel="stylesheet" type="text/css" href="css/fuente.css" /><!--Fuentes para World Fem-->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" /><!--CSS animate framework-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-table.css">
+    <link rel="stylesheet" href="css/btn.css"><!--css para bonotes MCS-->
+    <link rel="stylesheet" href="css/sidebar.css"><!--Css para el sibar MCS-->
+    <link rel="stylesheet" href="css/navbar.css"><!--css navbar MCS-->
+    <link rel="stylesheet" href="css/carousel.css"><!--Carousel css MCS-->
+    <link rel="stylesheet" href="css/panel.css"><!--CSS paneles-->
+    <link rel="stylesheet" href="css/color.css"><!--Css colores World Fem -->
+    <link rel="stylesheet" type="text/css" href="css/calendarcss.css">
+    <link rel="stylesheet" type="text/css" href="css/progromas.css">
+    
+    <link rel="stylesheet" href="css/publicar.css"><!--Css Publicar algo MCS-->
+    <link rel="stylesheet" type="text/css" href="css/editar.css" /><!--css Edisiones maternity CS-->
+    <link rel="stylesheet" href="css/usuarios.css"><!--scroll maternity y otras cosas QUE NO RECUERDO-->
+    
+     
+</head>
+<body>
+
+
+<!-- Inicio page-content-wrapper -->
+<div id="wrapper">
+<!-- Fin page-content-wrapper --> 
+
+
+<!--Inicio Menu lateral, top y menu hambuerguesa-->
+<!-- Inicio World Fem -->
+<nav class="menu">
+<div id="usuario" class="container-fluid target">
+<div class="row bg-color-primary-0">
+<div class="row">
+
+  <div class="col-md-1 col-xs-1 col-sm-1 col-lg-1">
+  <nav class="navbar navbar-fixed-top bg-color-primary-4" id="sidebar-wrapper" role="navigation">
+  <ul class="nav sidebar-nav">
+  <li class="sidebar-brand">
+  <center><i><h2 class="" style="color:white;">World Fem</h2></i></center>
+  </li>
+  <!-- Fin World Fem -->
+
+
+<!-- Inicio Foto usuario -->
+<div class="profile-userpic">
+<img src="Img 2/user.jpg" class="img-responsive" style="height:70px;width:70px;margin-top:20px;"  alt="">
+</div>
+<!-- Fin foto usuario -->
+
+
+<!-- Inicio Nombre y rol del usuario -->
+<div class="profile-usertitle">
+ <div class="profile-usertitle-name">Maria Crespo Miranda</div>
+ <div class="profile-usertitle-job">Mujer</div>
+</div>
+<!-- Fin Nombre y rol del usuario -->
+
+<!-- Inicio Boton cambiar foto -->
+<div class="profile-userbuttons">
+ <button type="button" class="btn-theme btn-sm" data-toggle="modal" data-target="#miModal">Cambiar foto</button>
+</div>
+<!-- Fin Boton cambiar foto -->
+
+                      
+<!-- Inicio Modulos Verticales Desplegables -->
+<li class="dropdown">
+<a href="Programas.html" class="dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> Gestión de talleres </a>
+<ul class="dropdown-menu " role="menu">
+   <li class="dropdown-header" style="color:white;"><center> Registrate a un taller: </center></li>
+   <li><a href="#">Consultar talleres</a></li>
+   <li><a href="#">Registrarse a taller</a></li>
+   <li><a href="#">Listar Registros</a></li>
+   </ul>
+</li>
+
+<li class="dropdown">
+<a href="Programas.html" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span> Gestión de certificados </a>
+<ul class="dropdown-menu" role="menu">
+  <li class="dropdown-header" style="color:white;"><center>Certificados: </center></li>
+  <li><a href="#"> Consultar talleres </a></li>
+  <li><a href="#"> Descargar certificados</a></li>
+  </ul>
+</li>
+
+                   
+<li>
+<a type="button" class="s-btn-home" href="Mujeres.html" >
+<div class=""><span class="glyphicon glyphicon-home" aria-hidden="true"></span>  Página principal</div>
+</a>
+</li>
+                   
+<li>
+<a type="button" id="s-btn-perfil" class="" href="Perfil Usuario (Mujer).html">
+<div class=""><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Perfil </div>
+</a>
+</li>
+                    
+<li>
+<a type="button" id="s-btn-agenda" class="" href="Agenda Usuario (Mujer).html">
+<div class=""><span class="fa fa-calendar" aria-hidden="true"></span> Fechas importantes </div>
+</a>
+</li>
+
+<li>
+<a type="button" id="s-btn-talleres" class="" href="Consulta tus talleres Usuario (Mujer).html">
+<div class=""><span class="fa fa-check-square" aria-hidden="true"></span> Gestión de talleres </div>
+</a>
+</li>
+
+<li>
+<a type="button" id="s-btn-certificados" class="" href="Consulta tus certificados Usuario (Mujer).html">
+<div class=""><span class="fa fa-clipboard" aria-hidden="true"></span> Gestión de certificados </div>
+</a>
+</li>
+
+</ul>
+</nav>
+</div>
+<!-- Fin Modulos Verticales Desplegables -->
+              
+
+<!-- Inicio Letras del Logo y notificaciones -->
+<div class="col-xs-5 col-sm-5 col-md-4 letraslogos">
+<a class="navbar-brand pull-left" href="Paginas de Error/Paginas de Error.html"><div class="letraslogos"><span class="hidden-xs hidden-sm">World Fem</span><img class="logo animated zoomIn col-xs-2 col-xs-offset-0 hidden-sm col-md-2 col-md-offset-0 col-lg-2 col-md-offset-0 col-lg- col-lg-offset-0 " alt="brand" src="Img 2/Isotipo World FemFinal.png"></div></a>
+</div>
+
+<div style="padding-top:4px;" class="col-md-6 hidden-xs col-sm-6 col-lg-6 ">
+<div style="padding:0;" class="pull-right">
+<div class="btn-group user-control">
+<a href="#" class="dropdown-toggle btn" data-toggle="dropdown" aria-expanded="true">
+<i class="fa fa-bell-o fa-lg"></i>
+<span class="label label bg-color-primary-1">14</span></a>
+              
+<ul class="dropdown-menu">
+<li style="color:white;" class="header">Tienes 14 notificaciones</li>
+<!-- Fin Letras del Logo y notificaciones -->
+
+
+
+<!-- Inicio notificaciones -->
+<div class="slimScrollDiv" style="position: relative; overflow:auto; hidden; width: auto; height: 200px;"><ul class="menu" style="overflow: auto; width: 100%; height: 200px;">
+<li>
+<a href="#" style="color: white">
+<i class="fa fa-users text-aqua"></i> 12 Nuevos talleres divulgados
+</a>
+</li>
+
+<li>
+<a href="#" style="color: white">
+<i class="fa fa-warning text-yellow"></i> Ya puedes descargar tus certificados
+</a>
+</li>
+
+<li>
+<a href="#" style="color: white">
+<i class="fa fa-users text-red"></i> Consulta tu historial de talleres
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="footer"><a href="#">Ver todas las notificaciones</a></li>
+</ul>
+<!-- Fin notificaciones -->
+
+
+                  
+<!-- Inicio Administrador al lado de Notificaciones -->
+<a style="color:white; padding:1px;" class="btn" href=""><img src="Img 2/user.jpg" alt="" id="user" class="img-radius img-responsive img-circle">Maria Jose Crespo</a>
+<a href="Paginas de Error/Paginas de Error 500.html" class="btn" ><span class="fa fa-cog fa-lg"></span></a>
+<a href="#" class="btn" id="salir" ><span class="fa fa-sign-out fa-lg"></span></a>  
+</div>
+</nav>
+<!-- Fin Administrador al lado de Notificaciones -->
+
+
+
+<!-- Inicio menu desplegable hamburguesa-->
+<div id="page-content-wrapper">
+  <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+    <span class="hamb-top"></span>
+    <span class="hamb-middle"></span>
+    <span class="hamb-bottom"></span>
+    </button>
+</div>
+<!-- Fin menu desplegable hamburguesa -->
+
+
+<!-- Inicio menu 2 horizontal Administrador -->           
+<div class="row">
+<div class="col-md-12">
+<div class=" btn-pref btn-group btn-group-justified btn-group  " role="group" aria-label="...">
+<div class="btn-group" role="group">
+<a href="Perfil Usuario (Mujer).html" data-toggle="tooltip" data-placement="bottom" title="Actualiza tu perfil" class="btn bg-color-primary-5  ">
+<span class="glyphicon glyphicon-user visible-xs" aria-hidden="true"></span><p class="hidden-xs">Ver perfil  <span class="glyphicon glyphicon-user" aria-hidden="true"></span></p>
+</a>
+</div>
+
+<div class="btn-group" role="group">
+<a href="Agenda Usuario (Mujer).html" class="btn bg-color-primary-5 "   data-toggle="tooltip" data-placement="bottom" title="Consultar fechas importantes">
+<span class="fa fa-calendar visible-xs" aria-hidden="true"></span><p class="hidden-xs">  Fechas importantes  <span class="fa fa-calendar" aria-hidden="true"></span></p>
+</a>
+</div>
+
+<div class="btn-group" role="group">
+<a href="Consulta tus talleres Usuario (Mujer).html" data-toggle="tooltip" data-placement="bottom" title="Consultar los talleres" class="btn bg-color-primary-5">
+<span class="fa fa-bell-o visible-xs" aria-hidden="true"></span><p class="hidden-xs">  Consulta tus talleres  <span class="fa fa-check-square" aria-hidden="true"></span></p>
+</a>
+</div>
+
+<div class="btn-group" role="group">
+<a href="Consulta tus certificados Usuario (Mujer).html" class="btn bg-color-primary-5" data-toggle="tooltip" data-placement="bottom" title="Consulta tus certificados">
+<span class="fa fa-users visible-xs" aria-hidden="true"></span><p class="hidden-xs">  Consultar certificados  <span class="fa fa-clipboard" aria-hidden="true"></span></p>
+</a>
+</div>
+</div>
+</div>
+</div>
+</nav>
+<!--fin menu 2 horizontal Administrador -->
+
+
+
+
+<!-- Inicio Documentos Fase 1 y Fase 2 -->
+<div class="container">
+<div class="row">
+    <div id="inbox">
+    <div class="fab btn-group show-on-hover dropup">
+    <div data-toggle="tooltip" data-placement="left" title="Documentación" style="margin-left: 2px;">
+     <button type="button" class="btn btn-danger btn-io dropdown-toggle" data-toggle="dropdown">
+      <span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x fab-backdrop"></i>
+      <i class="fa fa-plus fa-stack-1x fa-inverse fab-primary"></i>
+      <i class="fa fa-cog fa-stack-1x fa-inverse fab-secondary"></i>
+      </span>
+     </button>
+    </div>
+
+    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+    <li><a href="Doc fase 1.html" data-toggle="tooltip" data-placement="left" title="Fase 1"><i class="fa fa-file"></i></a></li>
+    <li><a href="Doc fase 2.html" data-toggle="tooltip" data-placement="left" title="Fase 2"><i class="fa fa-file"></i></a></li>
+    </ul>
+    </div>
+    </div>
+</div>
+</div> 
+<!-- Fin Documentos Fase 1 y Fase 2 -->
+
+
+
+<!-- Inicio para editar perfil -->
+<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h4 align="center"><span class="fa fa-user"></span> Cambia tu foto de perfil</h4>
+  </div>
+  <div class="modal-body" align="center" >
+  <div> <img src="Img 2/user.jpg" class="img-circle" style="width:30%;" alt=""> </div>
+  <div> <label class="btn btn-success" style="margin-top: 10px;">
+  <input type="file" name="subirFoto" style="margin-top:5px;" accept="img/">Haz click para subir tu foto desde tu ordenador
+  </label></div>
+  <small>Tu foto sera cambiada</small>
+  </div>          
+  <div class="modal-footer">
+  <div align="center">
+  <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+  <button type="submit" data-dismiss="modal" class="btn btn-danger">Aceptar</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Fin para editar perfil -->
+
+
+
+<!--# Inicio paginas Información de Talleres-->
+<div class="containe-iner" style="margin-left :15%; margin-right:15%;" id="features">
+<div class="row">
+<a data-toggle="modal" data-target="#miModal2">
+<div class="col-md-4 feature">
+<div class="col-md-8 col-md-offset-2" align="center">
+<img class="img-responsive" src="Img 2/consulta talleres.png" style="width:80%;" alt="placeholder+image">
+<br>
+</div>
+ <h3> Consultar talleres </h3>
+ <div class="title_border"></div>
+ <p> Talleres en los que te puedes inscribir <br> Lista los talleres disponibles </p>
+ </div>
+ </a>
+
+<a data-toggle="modal" data-target="#miModal3"><div class="col-md-4 feature">
+<div class="col-md-8 col-md-offset-2" align="center  ">
+<img class="img-responsive" src="Img 2/inscribirse a taller mujer.png" style="width:80%;" alt="placeholder+image">
+<br>
+</div>
+ <h3> Inscribirse a un Taller </h3>
+ <div class="title_border"></div>
+ <p> realiza la inscripción para pertenecer a este taller <br> Inscribete a un taller </p>
+ </div>
+ </a>
+
+<a data-toggle="modal" data-target="#miModal4"><div class="col-md-4 feature">
+<div class="col-md-9 col-md-offset-2">
+<img class="img-responsive" src="Img 2/registro listar mujer.png" style="width:70%;" alt="placeholder+image">
+<br>
+ </div>
+ <h3> Verificar registros </h3>
+ <div class="title_border"></div>
+ <p> Verifica que tu registro a un taller sea exitoso </p>
+ </div>
+ </a>
+ </div>
+ </div>
+<!--# Fin paginas Información de Talleres-->
+
+
+
+
+
+<!-- Inicio del modal de las usuarios Inscritas a talleres de moda -->
+<div class="modal fade" id="miModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 align="center"><span class="fa fa-check-square"></span> Consultar talleres </h4>
+</div>
+
+<div class="modal-body" align="center" >        
+<div class="col-md-12 col-md-offset-0">
+<div class="page-header">
+<h2 class="text-center"> Talleres en los que te puedes inscribir </h2>
+
+
+<table data-toggle="table" data-pagination="true" data-search="true" data-row-style="rowStyle" data-sort-name="usuarios" data-sort-order="desc" data-show-columns="true" data-page-list="[5,10,20,50,100,200]" data-show-toggle="true" style="background-color: #f5f5f5">
+
+  <thead style="background-color: #e3e3e3">
+  <tr>
+    <th data-field="CTDT"> Codigo Tipo de taller </th>
+    <th data-field="TDT"> Tipo de taller </th>
+  </tr>
+  </thead>
+            
+  <tbody>
+  <tr>
+    <td>001</td>
+    <td>Taller de moda</td>
+  </tr>
+  <tr>
+    <td>002</td>
+    <td>Cena solidaria</td>
+  </tr>
+  <tr>
+    <td>003</td>
+    <td>Taller de moda</td>
+  </tr>
+  <tr>
+    <td>004</td>
+    <td>Actividades Culturales</td>
+  </tr>
+  <tr>
+    <td>005</td>
+    <td>Taller de moda</td>
+  </tr>
+  <tr>
+    <td>006</td>
+    <td>Taller de moda</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<!-- Fin del modal de los trabajos de remdelacion en grietas -->
+        
+
+<!-- Inicio para los botones de aceptar y cancelar --> 
+ <div class="modal-footer">
+            <div align="center">
+              <button class="btn btn-info" data-dismiss="modal"><span class="glyphicon glyphicon-ok">cerrarModal</button>
+            </div>
+          </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Fin para los botones de aceptar y cancelar -->
+
+
+
+
+
+<!-- Inicio del modal de las usuarios Inscritas a talleres de moda -->
+<div class="modal fade" id="miModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 align="center"><span class="fa fa-sign-out"></span> Registro a taller </h4>
+</div>
+<div class="modal-body" align="center">
+<div class="page-header">
+<h2 class="text-center">formulario registro</h2>
+
+<form>
+<div class="form-group">
+<label for="exampleInputEmail1">Confirma tu email</label>
+<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo Electronico" tabindex="1" required>
+<small id="emailHelp" class="form-text text-muted">Correo electronico de la Asociación</small>
+</div>
+<div class="form-group">
+<label for="exampleInputPassword1">Confirma tu contraseña</label>
+<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" tabindex="2" required>
+</div>
+<div class="form-group">
+<label for="exampleSelect1">comfirma taller que deseas realizar</label>
+<select class="form-control" id="exampleSelect1" tabindex="3" required>
+<option>Taller de Moda</option>
+<option>Cena solidaria</option>
+<option>Actividades culturales</option>
+</select>
+</div>
+ 
+
+<div class="form-check">
+<label class="form-check-label">
+<input type="checkbox" class="form-check-input">Acepto los termino y condiciones
+</label>
+<div class="modal-footer">
+<div align="center">
+<button type="submit" data-dismiss="modal" id="cancelar" class="btn btn-danger Aceptar"><span class="glyphicon glyphicon-remove"></span>Cancelar</button>
+<button class="btn btn-info" type="submit" id="confirmar"><span class="glyphicon glyphicon-ok">Confirmar</button>
+</div>
+</form>
+</div>
+</div>
+</div> 
+</div>  
+</div>  
+</div>  
+</div>  
+<!-- fin del modal de las usuarias inscritas a talleres -->
+
+
+
+
+<!-- Inicio del modal de las usuarios Inscritas a talleres de moda -->
+<div class="modal fade" id="miModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 align="center"><span class="fa fa-clipboard"></span> Verificar registros </h4>
+</div>
+
+<div class="modal-body" align="center" >        
+<div class="col-md-12 col-md-offset-0">
+<div class="page-header">
+<h2 class="text-center"> Verifica que tu registro a un taller sea exitoso </h2>
+
+
+<table data-toggle="table" data-pagination="true" data-search="true" data-row-style="rowStyle" data-sort-name="usuarios" data-sort-order="desc" data-show-columns="true" data-page-list="[5,10,20,50,100,200]" data-show-toggle="true" style="background-color: #f5f5f5">
+
+  <thead style="background-color: #e3e3e3">
+  <tr>
+    <th data-field="CTDT"> Codigo Registro taller </th>
+    <th data-field="TDT"> Correo </th>
+    <th data-field="TDT"> Disponibilidad </th>
+    <th data-field="TDT"> Tipo de taller </th>
+  </tr>
+  </thead>
+            
+  <tbody>
+  <tr>
+    <td>001</td>
+    <td>cammm@gmail.com</td>
+    <td>Terminado</td>
+    <td>Taller de moda</td>
+  </tr>
+  <tr>
+    <td>002</td>
+    <td>bryanms@gmail.com</td>
+    <td>Vigente</td>
+    <td>Cena solidaria</td>
+  </tr>
+  <tr>
+    <td>003</td>
+    <td>ismael12@gmail.com</td>
+    <td>Vigente</td>
+    <td>Taller de moda</td>
+  </tr>
+  <tr>
+    <td>004</td>
+    <td>dayanj3@gmail.com</td>
+    <td>Terminado</td>
+    <td>Actividades Culturales</td>
+  </tr>
+  <tr>
+    <td>005</td>
+    <td>tatis@gmail.com</td>
+    <td>Terminado</td>
+    <td>Taller de moda</td>
+  </tr>
+  <tr>
+    <td>006</td>
+    <td>sebast55@gmail.com</td>
+    <td>Terminado</td>
+    <td>Taller de moda</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<!-- Fin del modal de los trabajos de remdelacion en grietas -->
+
+
+<!-- Inicio para los botones de aceptar y cancelar --> 
+ <div class="modal-footer">
+            <div align="center">
+              <button class="btn btn-info" data-dismiss="modal"><span class="glyphicon glyphicon-ok">cerrarModal</button>
+            </div>
+          </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Fin para los botones de aceptar y cancelar -->
+
+
+
+
+
+
+
+<!--Inicio scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/validadores.js"></script>
+<script type="text/javascript" src="js/bootstrap-table.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-table-es-MX.js"></script>
+<script src="js/fullcalendar.js"></script>
+<script type="text/javascript" src="js/es.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="dist/js/formValidation.min.js"></script>
+<script src="dist/js/framework/bootstrap.min.js"></script>
+<script src="js/sweetalert.min.js"></script>
+<script type="text/javascript" src="js/ocultar.js"></script>
+<script type="text/javascript" src="js/usuariolist.js"></script>
+<script type="text/javascript" src="js/alertas.js"></script>
+<!--scripts -->
+
+</body>
+</html>

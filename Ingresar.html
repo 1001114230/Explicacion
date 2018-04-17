@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Iniciar sesión</title>
+
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shorcut icon" href="Img 2/Isotipo World FemFinal.png"><!--Favicon World Fem-->
+  <link rel="stylesheet" href="css/estilos Ingresar.css">
+  <link rel="stylesheet" href="css/RegisterValidation.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/datepicker.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+    <div class="pen-title">
+    <h1>World Fem</h1>
+    </div>
+
+    <div class="container">
+    <div class="card"></div>
+    <div class="card">
+
+    <h1 class="title">Iniciar sesión</h1>
+    <form method="post" id="loginUsuario" action="" accept-charset="UTF-8">
+    <div id="usuario" class="form-action show">
+    <div class="form-group">
+    <input type="text" class="form-control" id="Username" name="Username" required="required" maxlength="15" tabindex="1"/>
+    <label for="Username">Nombre de Usuario</label>
+    <div class="bar">
+    </div>
+    </div>
+
+    <div class="form-group">
+    <input type="password" class="form-control" id="Password" name="Password" value="" required="required" maxlength="20" tabindex="2"/>
+    <label for="Password">Contraseña</label>
+    <div class="bar">
+    </div>
+    </div>
+    <div class="button-container">
+    <button type="submit" value="Entrar" target="_parent"><span>Ingresar</span></button>
+    </div>
+    </form>
+<br>
+<br> 
+
+
+<!-- Inicio Recuperar Contraseña-->
+<div class="card alt">
+<div class="toggle" title="Olvidaste tu contraseña"></div>
+<h1 class="title">Recuperar contraseña
+<div class="close"></div>
+</h1>
+
+<form method="post" id="RegisterUsuario" action="">
+  <div class="form-group">
+  <input type="text" class="form-control" name="Nombres" id="Nombres" required="required" maxlength="15" tabindex="4"/>
+  <label for="Nombres">Nombres</label>
+  <div class="bar"></div>
+  </div>
+
+  <div class="form-group">
+  <input type="text" class="form-control" name="Apellidos" id="Apellidos" required="required" maxlength="15" tabindex="6" />
+  <label for="Apellidos">Apellidos</label>
+  <div class="bar"></div>
+  </div>
+
+  <div class="form-group">
+  <input type="email" class="form-control" name="email" id="email" required="required" maxlength="30" tabindex="4"/>
+  <label for="email">Correo Electronico</label>
+  <div class="bar"></div>
+  </div>
+
+  <div class="form-group">
+  <input type="password" class="form-control" name="password" id="password" required="required" maxlength="30" tabindex="4"/>
+  <label for="password">Nueva Contraseña</label>
+  <div class="bar"></div>
+  </div>
+
+  <div class="form-group">
+  <input type="password" class="form-control" name="password" id="password" required="required" maxlength="30" tabindex="4" />
+  <label for="password">Repita Contraseña</label>
+  <div class="bar"></div>
+  </div>
+
+ <div class="progress password-progress">
+ <div id="strengthBar" class="progress-bar" role="progressbar" style="width: 0;"></div>
+ </div>
+ <br>
+ <div class="button-container">   
+ <button type="submit" target="_parent"><span>Recuperar</span></button>
+</div>
+</form>
+</div>
+</div>
+<!-- Fin Recuperar Contraseña-->
+
+
+    
+<!-- CodePen-->
+<a id="codepen" href="Pagina Principal/Pagina Principal.html" title="Regresar a la Pagina Principal"><i class="fa fa-home fa-2x"></i></a>
+
+
+
+  <!-- -JQuery- -->
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/datepicker.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/formValidation.min.js"></script>
+  <script type="text/javascript" src="js/bootstrapValidation.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/sweetalert.min.js"></script><!--framework-->
+  <script type="text/javascript" src="js/login.js"></script>
+  <script type="text/javascript" src="js/ValidacionRegister.js"></script>
+  <script type="text/javascript" src="js/Ingresar.js"></script>
+
+</body>
+</html>

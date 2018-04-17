@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Bienvenido Administrador</title>
+     
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><!--framevwork bootstrap css minificado-->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"><!--framevwork font-awesome css minificado-->
+    <link rel="stylesheet" href="css/sweetalert.css"><!--Framework sweetalert-->
+    <link rel="stylesheet" href="dist/css/formValidation.min.css"><!--Framework css-minifiaco para formValidation-->
+    <link rel="stylesheet" type="text/css" href="css/fullcalendar.css">
+    
+    <link rel="shorcut icon" href="Img 2/Isotipo World FemFinal.png"><!--Favicon World Fem-->
+    <link rel="stylesheet" type="text/css" href="css/fuente.css"><!--Fuentes para World Fem-->
+    <link rel="stylesheet" type="text/css" href="css/animate.css"><!--CSS animate framework-->
+    <link rel="stylesheet" href="css/btn.css"><!--css para bonotes MCS-->
+    <link rel="stylesheet" href="css/sidebar.css"><!--Css para el sibar MCS-->
+    <link rel="stylesheet" href="css/navbar.css"><!--css navbar MCS-->
+    <link rel="stylesheet" href="css/carousel.css"><!--Carousel css MCS-->
+    <link rel="stylesheet" href="css/panel.css"><!--CSS paneles-->
+    <link rel="stylesheet" href="css/color.css"><!--Css colores World Fem-->
+      
+    <link rel="stylesheet" href="css/publicar.css"><!--Css Publicar algo MCS-->
+    <link rel="stylesheet" type="text/css" href="css/editar.css"><!--css Edisiones World Fem CS-->
+    <link rel="stylesheet" href="css/usuarios.css">
+      
+  
+</head>
+
+
+<!-- Inicio Rueda cargando pagina -->
+  <body onload="myFunction()" style="margin:0;">
+  <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+<!-- Fin Rueda cargando pagina -->
+
+
+<!-- Inicio page-content-wrapper -->
+<div id="wrapper">
+<!-- Fin page-content-wrapper --> 
+
+            
+
+<!--Inicio Menu lateral, top y menu hambuerguesa-->
+<!-- Inicio World Fem -->
+<nav class="menu">
+<div id="usuario" class="container-fluid target">
+<div class="row bg-color-primary-0">
+<div class="row">
+
+  <div class="col-md-1 col-xs-1 col-sm-1 col-lg-1">
+  <nav class="navbar navbar-fixed-top bg-color-primary-4" id="sidebar-wrapper" role="navigation">
+  <ul class="nav sidebar-nav">
+  <li class="sidebar-brand">
+    <center><i><h2 class="" style="color:white;">World Fem</h2></i></center>
+  </li>
+  <!-- Fin World Fem -->
+
+
+<!-- Inicio Foto usuario -->
+<div class="profile-userpic">
+  <img src="Img 2/user.jpg" class="img-responsive" style="height:70px;width:70px;margin-top:20px;"  alt="">
+</div>
+<!-- Fin foto usuario -->
+
+
+<!-- Inicio Nombre y rol del usuario -->
+<div class="profile-usertitle">
+ <div class="profile-usertitle-name">Francisco Pastor</div>
+ <div class="profile-usertitle-job">Administrador</div>
+</div>
+<!-- Fin Nombre y rol del usuario -->
+
+
+<!-- Inicio Boton cambiar foto -->
+<div class="profile-userbuttons">
+ <button type="button" class="btn-theme btn-sm" data-toggle="modal" data-target="#miModal">Cambiar foto</button>
+</div>
+<!-- Fin Boton cambiar foto -->
+ 
+
+<!-- Inicio Modulos Verticales Desplegables -->
+<li class="dropdown">
+<a href="Programas.html" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>Talleres:</a>
+<ul class="dropdown-menu" role="menu">
+ <li class="dropdown-header" style="color:white;"><center>Programacion De Talleres:</center></li>
+ <li><a href="Talleres Administrador.html">Gestion De Talleres</a></li>
+ <li><a href="Modificar Talleres Administrador.html">Modificar talleres</a></li>
+</ul>
+</li>
+
+<li class="dropdown">
+<a href="Programas.html" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>Contrato:</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown-header" style="color:white;"><center>Selección de Pasantes:</center></li>
+ <li><a href="Contratar Practicantes Administrador.html">Citar Practicantes</a></li>
+ <li><a href="Contratar Practicantes Administrador.html">Formalizar Contrato</a></li>
+ <li><a href="Contratar Practicantes Administrador.html">Listar Practicantes</a></li>
+</ul>
+</li>
+
+<li class="dropdown">
+<a href="Programas.html" class="dropdown-toggle" data-toggle="dropdown"><span class="caret"></span>Calificaciones:</a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown-header" style="color:white;"><center>Calificación:</center></li>
+ <li><a href="Calificaciones Administrador.html"> Lista de Calificaciones</a></li>
+ <li><a href="Calificaciones Administrador.html"> Asignar Calificación </a></li>
+</ul>
+</li>
+
+
+
+<!-- Inicio Modulos Verticales Desplegables -->
+<li>
+  <a type="button" class="s-btn-home" href="Administrador.html"><div class=""><span class="glyphicon glyphicon-home" aria-hidden="true"></span>    Página principal    </div>
+  </a>
+</li>
+
+<li>
+  <a type="button" class="s-btn-foro" href="Registro Usuarios Administrador.html" >
+  <div class=""><span class="fa fa-users" aria-hidden="true"></span>    Registrar usuarios   </div>
+  </a>
+</li>
+
+<li>
+  <a type="button" id="s-btn-perfil" class="" href="Perfil Administrador.html">
+  <div class=""><span class="glyphicon glyphicon-user" aria-hidden="true"></span>    Perfil   </div>
+  </a>
+</li>
+                    
+<li>
+  <a type="button" id="s-btn-programas" class="" href="Contratar Practicantes Administrador.html">
+  <div class=""><span class="fa fa-users" aria-hidden="true"></span>    Contrato de Practicantes   </div>
+  </a>
+</li>
+
+<li>
+  <a type="button" id="s-btn-agenda" class="" href="Fechas importantes Administrador.html">
+  <div class=""><span class="fa fa-calendar" aria-hidden="true"></span>    Fechas importantes    </div>
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+<!-- Fin Modulos Verticales Desplegables -->
+<!-- Fin Menu lateral, top y menu hambuerguesa-->       
+<!-- Inicio Letras del Logo y notificaciones -->
+<div class="col-xs-5 col-sm-5 col-md-4 letraslogos">
+<a class="navbar-brand pull-left" href="Paginas de Error/Paginas de Error 500.html"><div class="letraslogos"><span class="hidden-xs hidden-sm">World Fem</span><img class="logo animated zoomIn col-xs-2 col-xs-offset-0 hidden-sm col-md-2 col-md-offset-0 col-lg-2 col-md-offset-0 col-lg- col-lg-offset-0 " alt="brand" src="Img 2/Isotipo World FemFinal.png"></div></a>
+</div>
+
+
+<div style="padding-top:4px;" class="col-md-6 hidden-xs col-sm-6 col-lg-6 ">
+<div style="padding:0;" class="pull-right">
+<div class="btn-group user-control">
+<a href="#" class="dropdown-toggle btn" data-toggle="dropdown" aria-expanded="true">
+<i class="fa fa-bell-o fa-lg"></i>
+<span class="label label bg-color-primary-1">25</span></a>
+              
+<ul class="dropdown-menu">
+<li style="color:white;" class="header">Tienes 25 notificaciones</li>
+<!-- Fin Letras del Logo y notificaciones -->
+
+
+
+<!-- Inicio notificaciones -->
+<div class="slimScrollDiv" style="position: relative; overflow:auto; hidden; width: auto; height: 200px;"><ul class="menu" style=" width: 100%; height: 200px;">
+<li>
+<a href="#" style="color: white"><i class="fa fa-users"></i> 12 Nuevos usuarios registrados a talleres</a>
+</li>
+
+<li>
+<a href="#" style="color: white"><i class="fa fa-warning"></i> 3 talleres ya se realizaron ¡Debes registrar nuevos talleres!</a>
+</li>
+
+<li>
+<a href="#" style="color: white"><i class="fa fa-users"></i> 5 Usuarios realizaron donaciones ¡Debes Asignarles sus beneficios!</a>
+</li>
+
+<li>
+<a href="#" style="color: white"><i class="fa fa-user"></i> 5 tareas ya fueron realizadas ¡Calificalas!</a>
+</li>
+</ul>
+</div>
+
+</li>
+<li class="footer"><a href="#">Ver todas las notificaciones</a></li>
+</ul>
+<!-- Fin notificaciones -->
+
+
+                  
+<!-- Inicio Administrador al lado de Notificaciones -->
+<a style="color:white; padding:1px;" class="btn" href="Perfil Administrador.html"><img src="Img 2/user.jpg" alt="" id="user" class="img-radius img-responsive img-circle">Francisco Pastor</a>
+<a href="Paginas de Error/Paginas de Error.html" class="btn" ><span class="fa fa-cog fa-lg"></span></a>
+<a href="#" class="btn" id="salir" ><span class="fa fa-sign-out fa-lg"></span></a>  
+</div>
+</nav>
+<!-- Fin Administrador al lado de Notificaciones -->
+
+
+
+<!-- Inicio menu desplegable hamburguesa-->
+<div id="page-content-wrapper">
+  <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+    <span class="hamb-top"></span>
+    <span class="hamb-middle"></span>
+    <span class="hamb-bottom"></span>
+    </button>
+</div>
+<!-- Fin menu desplegable hamburguesa -->
+        
+
+
+
+<!-- Inicio menu 2 navbar -->
+<div class="row ">
+<div class="col-md-12 ">
+<div  class=" btn-pref btn-group btn-group-justified btn-group  " role="group" aria-label="...">
+             
+  <div class="btn-group" role="group">
+  <a href="Fechas importantes Administrador.html" class="btn bg-color-primary-5" data-toggle="tooltip" data-placement="bottom" title="Consultar fechas importantes">
+  <span class="fa fa-calendar visible-xs" aria-hidden="true"></span><p class="hidden-xs">Fechas importantes    <span class="fa fa-calendar" aria-hidden="true"></span></p></a>
+  </div>
+  <div class="btn-group" role="group">
+  <a href="Talleres Administrador.html" data-toggle="tooltip" data-placement="bottom" title="Consultar los talleres" class="btn bg-color-primary-5 "    >
+  <span class="fa fa-bell-o visible-xs" aria-hidden="true"></span><p  class="hidden-xs">Talleres   <span class="fa fa-calendar-check-o" aria-hidden="true"></span></p>
+  </a>
+  </div>
+
+  <div class="btn-group" role="group">
+  <a href="Contratar Practicantes Administrador.html" class="btn bg-color-primary-5" data-toggle="tooltip" data-placement="bottom" title="Consultar Practicantes">
+  <span class="fa fa-users visible-xs" aria-hidden="true"></span><p class="hidden-xs">Contrato practicantes    <span class="fa fa-users" aria-hidden="true"></span></p>
+  </a>
+  </div>
+
+  <div class="btn-group" role="group">
+  <a href="Calificaciones Administrador.html" class="btn bg-color-primary-5" data-toggle="tooltip" data-placement="bottom" title="Donaciones">
+  <span class="fa fa-star visible-xs" aria-hidden="true"></span>
+  <p class="hidden-xs">Calificaciones     <span class="fa fa-star" aria-hidden="true"></span></p>
+  </a>
+  </div>
+</div>
+</div>
+</div>
+<!-- Fin menu 2 navbar -->
+        
+
+      
+<!--< Inicio Transaciones de pagina de Inicio ">-->
+<div class="inicio">
+  <div class="row">
+  <!-- Carousel -->
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+</ol>
+<!--< Fin Transaciones de pagina de Inicio ">-->
+
+
+
+<!-- Fondo de la pagina -->
+<div class="carousel-inner">
+  <div class="item active">
+  <img src="Img 2/Mujeres Asociacion 2.jpg"  alt="First slide">
+  <!-- Static Header -->
+  </div>         
+  <div class="item">
+  <img src="Img 2/cena2013_22.jpg"  alt="Second slide">
+  <!-- Static Header -->
+  </div>
+<!-- fin Fondo de la pagina -->
+
+                       
+
+<!-- Inicio Controles -->
+<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+ <span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+ <span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Fin Controles -->
+
+
+                 
+<!-- Inicio Documentos Fase 1 y Fase 2 -->
+<div class="container">
+<div class="row">
+    <div id="inbox">
+    <div class="fab btn-group show-on-hover dropup">
+    <div data-toggle="tooltip" data-placement="left" title="Documentación" style="margin-left: 2px;">
+     <button type="button" class="btn btn-danger btn-io dropdown-toggle" data-toggle="dropdown">
+      <span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x fab-backdrop"></i>
+      <i class="fa fa-plus fa-stack-1x fa-inverse fab-primary"></i>
+      <i class="fa fa-cog fa-stack-1x fa-inverse fab-secondary"></i>
+      </span>
+     </button>
+    </div>
+
+    <ul class="dropdown-menu dropdown-menu-right" role="menu">
+    <li><a href="Doc fase 1.html" data-toggle="tooltip" data-placement="left" title="Fase 1"><i class="fa fa-file"></i></a></li>
+    <li><a href="Doc fase 2.html" data-toggle="tooltip" data-placement="left" title="Fase 2"><i class="fa fa-file"></i></a></li>
+    </ul>
+    </div>
+    </div>
+</div>
+</div> 
+<!-- Fin Documentos Fase 1 y Fase 2 -->
+
+
+
+<!-- Inicio para editar perfil -->
+<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h4 align="center"><span class="fa fa-user"></span> Cambia tu foto de perfil</h4>
+  </div>
+  <div class="modal-body" align="center" >
+  <div> <img src="Img 2/user.jpg" class="img-circle" style="width:30%;" alt=""> </div>
+  <div> <label class="btn btn-success" style="margin-top: 10px;">
+  <input type="file" name="subirFoto" style="margin-top:5px;" accept="img/"> Haz click para subir tu foto desde tu ordenador
+  </label></div>
+  <small>Tu foto sera cambiada</small>
+  </div>          
+  <div class="modal-footer">
+  <div align="center">
+  <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+  <button type="submit" data-dismiss="modal" class="btn btn-danger">Aceptar</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Fin para editar perfil -->
+
+
+
+  <!--Inicio scripts -->
+ <script src="js/jquery.min.js"></script>
+ <script src="js/moment.min.js"></script>
+ <script type="text/javascript" src="js/validadores.js"></script>
+ <script type="text/javascript" src="js/bootstrap-table.min.js"></script>
+ <script type="text/javascript" src="js/bootstrap-table-es-MX.js"></script>
+ <script src="js/fullcalendar.js"></script>
+ <script type="text/javascript" src="js/es.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="dist/js/formValidation.min.js"></script>
+ <script src="dist/js/framework/bootstrap.min.js"></script>
+ <script src="js/sweetalert.min.js"></script>
+ <script type="text/javascript" src="js/ocultar.js"></script>
+ <script type="text/javascript" src="js/usuariolist.js"></script>
+ <script type="text/javascript" src="js/alertas.js"></script>
+<!--Fin scripts -->
+
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
+swal(
+  'Bienvenido Administrador!',
+  'Esperamos que disfrutes del sistema!',
+)
+
+</script>
+
+</body>
+</html>

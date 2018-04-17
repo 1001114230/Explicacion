@@ -1,0 +1,68 @@
+
+.bg-color-primary-0 { 
+    background: #A8A8A8;
+
+ }    /*NAV top*/
+.bg-color-primary-1 { background-color: #EB5070; }
+.bg-color-primary-2 { background-color: #ffffff; }
+.bg-color-primary-3 { background-color: #fff; }
+.bg-color-primary-4 { background: #A8A8A8; }
+/*SIDEBAR*/
+
+.color-primary-0 { color: #771E4A; } 
+.color-primary-1 { color: #EB5070; }
+.color-primary-2 { color: #A31D45; }
+.color-primary-3 { color: #fff; }
+.color-primary-4 { color: #ffffff; }
+
+
+
+/*Colores botones de navegacion*/
+.bg-color-primary-5{
+	  background: #EB5070;
+      color: #fff;
+        margin: 0 auto;
+        border: none;
+        font-size: 15px;
+        border-radius: 40%;
+    height: 35px;
+    font-size: 20px;}
+
+.bg-color-primary-5:hover{
+	color: #CFCFCF;
+     border-bottom: solid white ;
+        margin: 0 auto;
+        
+        
+        font-size: 20px;
+        
+        border-radius: 50%;
+            height: 35px;
+    font-size: 20px;
+	     
+        transform: translateY(1px);        
+}
+
+.loader {
+    border: 16px solid #fff; /* Light grey */
+    border-top: 16px solid #fff; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.boton2 {
+background: #911141;
+color: #fff;
+}
+
+.boton1 {
+background: #2C3E50;
+color: #fff;
+}
